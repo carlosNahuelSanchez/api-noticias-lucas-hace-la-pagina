@@ -1,0 +1,36 @@
+.news-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.news-article {
+    border: 3px solid rgb(254, 254, 232);
+    border-radius: 0px;
+    background-color: beige;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 700px;
+    max-height: 750px;
+  }
+  
+  .news-article img.news-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .news-article h2 {
+    margin: 0 0 10px;
+  }
+  
+  .news-article p {
+    margin: 0 0 10px;
+  }
+  
+  .news-article a {
+    color: blue;
+    text-decoration: underline;
+  }
+  
